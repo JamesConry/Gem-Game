@@ -1,3 +1,9 @@
+body{
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
 .crystal{
     width: 100px;
     height: 100px;
@@ -8,3 +14,41 @@
     height: 100px;
 }
 
+.top{
+    color: white;
+    background-color: brown;
+    margin-bottom: 10px;
+}
+
+.instructions{
+    color: green;
+    background-color: tan;
+    margin-bottom: 10px;
+}
+
+.targetArea{
+    color: purple;
+    background-color: lightgreen;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.win-loss{
+    color: green;
+    background-color: lightblue;
+    margin-bottom: 10px;
+    
+}
+
+.lower{
+    color: white;
+    background-color: darkblue;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.bottomArea{
+    color: white;
+    background-color: darkblue;
+    margin-bottom: 10px;
+}

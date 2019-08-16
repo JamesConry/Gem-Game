@@ -23,7 +23,7 @@ $(document).ready(function() {
 
     $(".crystal").on("click", function() {
       if(parseInt(this.value) === -1){
-          this.value = Math.floor(Math.random() * 12) + 1;
+        this.value = Math.floor(Math.random() * 12) + 1;
       }
       userTotal += parseInt(this.value);
       if(userTotal === randomTotal){
@@ -31,8 +31,8 @@ $(document).ready(function() {
         reset();
       }
       else if(userTotal>randomTotal){
-          losses++;
-          reset();
+        losses++;
+        reset();
       }
 
       $("#target").text(randomTotal);
