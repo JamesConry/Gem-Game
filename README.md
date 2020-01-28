@@ -11,3 +11,5 @@ Git Link: https://github.com/JamesConry/Gem-Game Web link: https://jamesconry.gi
 Notable Technologies used: Jquery
 
 Role: Complete creation of app.
+
+ScreenShot:![screen shot](/assets/images/Gemgame.PNG)
